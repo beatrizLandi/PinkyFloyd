@@ -2,7 +2,9 @@
 
     width: 100%;
     height: 100vh;
-    background-color: rgb(252, 252, 252);
+    display: flex;
+  
+   
 
 }
 
@@ -14,4 +16,74 @@
     background-image: url(imagens/theWall\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -10;
+}
+
+.linha{
+    border-left: 4px  solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    padding-right: 1%;
+     width: 2px;
+     z-index: -1;
+     position: relative;
+     right: 10%;
+}
+
+.linha2{
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+     right: 15%;
+     width: 2px;
+     z-index: -5;
+}
+.linha3{
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    right: 15%;
+     width: 2px;
+     z-index: -5;
+}
+.linha4{
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+     right: 2%;
+     width: 2px;
+     z-index: -5;
+}
+
+.marcaPagina{
+
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+    position: relative;
+    z-index: 666;
+    position: absolute;
+    font-size: 3vw;
+    right: 3%;
+
+}
+
+.LogoHistoria{
+
+top: 2%;
+position: relative;
+right: 70%;
+
+    
+}
+
+.Integrantes{
+
+    left: 3%;
+    position: absolute;
+    z-index: 666;
+
+
 }
