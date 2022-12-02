@@ -28,7 +28,7 @@
      width: 1px;
      z-index: -1;
      position: relative;
-     right: 8%;
+     right: 6vw;
 }
 
 .linha2{
@@ -36,7 +36,7 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-     right: 12%;
+    left: 4.5vw;
      width: 1px;
      z-index: -5;
 }
@@ -45,7 +45,7 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-    right: 11%;
+    left: 16vw;
      width: 1px;
      z-index: -5;
 }
@@ -53,8 +53,8 @@
     border-left: 3px solid rgb(0, 0, 0);
     height: 100%;
     margin: 0 auto;
-    position: absolute;
-     right: 6%;
+    position: relative;
+    left: 48vw;
      width: 1px;
      z-index: -5;
 }
@@ -67,18 +67,19 @@
     z-index: 666;
     position: relative;
     font-size: 4rem;
-    left: 10%;
+    left: 33vw;
+    
     
 
 }
 
 .LogoHistoria{
 
-top: 2%;
+top: 4%;
 position: relative;
-right: 80%;
+right: 8vw;
 height: 11vw;
-width: 32vw;
+width: 37vw;
 
 
     
@@ -87,21 +88,21 @@ width: 32vw;
 .Integrantes{
 
     margin-top: 0.5%;
-    left: 5%;
+    left: 3%;
     position: absolute;
     z-index: 666;
-    height: 24vw;
-    width: 44vw;
+    height: 23vw;
+    width: 43vw;
 
 
 }
 
 .Texto1{
 
-    margin-top: 12%;
-    font-size: 1.3rem;
-    right: 14%;
-    width: 30vw;
+    margin-top: 14%;
+    font-size: 1.4rem;
+    right: 5.9vw;
+    width: 37vw;
     position: absolute;
     z-index: 666;
     font-family: 'Inter', sans-serif;
@@ -112,9 +113,9 @@ width: 32vw;
 .Texto2{
 
     position: absolute;
-    margin-top: 25%;
+    margin-top: 25vw;
     font-size: 1.2rem;
-    left: 4.5%;
+    left: 2vw;
     width: 21vw;
     z-index: 666;
     font-family: 'Inter', sans-serif;
@@ -127,6 +128,8 @@ width: 32vw;
     margin-top: 2%;
     position: relative;
     left: 7%;
+    height: 7vw;
+    width: 15vw;
 
 }
 
@@ -157,19 +160,15 @@ width: 32vw;
 
 }
 
-.ImagemHistoria2{
 
-    height: 10vw;
-    width: 18vw;
-
-}
 
 .TheShowMustGoOn{
 
-    height: 18vw;
-    width: 28vw;
+    
+    height: 16vw;
+    width: 26vw;
     position: absolute;
-   margin-top: 24%;
+   margin-top: 25%;
    right: 15%;
    filter: grayscale(100%);
 
@@ -178,7 +177,7 @@ width: 32vw;
 
 .theShowParagrafo{
     font-size: 1.2rem;
-    margin-top: 45%;
+    margin-top: 43%;
     right: 10%;
     position: absolute;
     font-family: 'Inter', sans-serif;
@@ -189,7 +188,7 @@ width: 32vw;
 .theShowParagrafoData{
 
     font-size: 1.1rem;
-    margin-top: 48%;
+    margin-top: 45%;
     right: 10%;
     position: absolute;
     font-family: 'Inter', sans-serif;
