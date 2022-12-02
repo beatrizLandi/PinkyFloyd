@@ -54,7 +54,7 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-    left: 48vw;
+    left: 47vw;
      width: 1px;
      z-index: -5;
 }
@@ -75,12 +75,12 @@
 
 .LogoHistoria{
 
-top: 4%;
-position: relative;
-right: 8vw;
-height: 11vw;
-width: 37vw;
-
+    top: 4%;
+    position: relative;
+    right: 8vw;
+    height: 11vw;
+    width: 37vw;
+    transform: rotate(-5deg);
 
     
 }
@@ -187,7 +187,7 @@ width: 37vw;
 
 .theShowParagrafoData{
 
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 45%;
     right: 10%;
     position: absolute;

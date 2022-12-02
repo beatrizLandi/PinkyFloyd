@@ -1,0 +1,18 @@
+.menu{
+
+    margin-top: 2%;
+    right: 2vw;
+    position: absolute;
+    display: flex;
+    gap: 72px;
+    font-size: 1.25rem;
+   
+
+
+}
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .5s;
+
+
+}
