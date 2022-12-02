@@ -46,7 +46,7 @@
               opacity: 0.8;
   
           } 43%{
-              opacity: 1;
+              opacity: 0;
   
           } 45%{
               opacity: 0.3;
@@ -84,7 +84,15 @@
     border-right: thick solid antiquewhite; 
     border-left: thick solid antiquewhite; 
     left: 10vw;
-    
+    text-shadow: 0 0 0 transparent,
+    0 0 10px rgb(236, 217, 193),
+    0 0 20px rgb(231, 208, 180),
+    0 0 40px rgb(247, 228, 204),
+    0 0 100px rgb(243, 227, 208),
+    0 0 200px rgb(252, 220, 180),
+    0 0 300px rgb(243, 227, 208),
+    0 0 500px rgb(243, 227, 208),
+    0 0 1000px rgb(243, 227, 208);
     
 
 }
@@ -97,16 +105,15 @@
     font-family: 'Inter', sans-serif;
     color: antiquewhite;
     text-shadow: 0 0 0 transparent,
-    0 0 10px rgb(236, 217, 193),
-    0 0 20px rgb(231, 208, 180),
-    0 0 40px rgb(247, 228, 204),
-    0 0 100px rgb(243, 227, 208),
-    0 0 200px rgb(252, 220, 180),
-    0 0 300px rgb(243, 227, 208),
-    0 0 500px rgb(243, 227, 208),
-    0 0 1000px rgb(243, 227, 208);
+    0 0 10px #a80000,
+    0 0 20px #a80000,
+    0 0 40px #a80000,
+    0 0 100px #a80000,
+    0 0 200px #db3e3e,
+    0 0 300px #db3e3e,
+    0 0 500px #db3e3e,
+    0 0 1000px #db3e3e;
 
    
-    animation: animate 3s infinite alternate;
 }
 

@@ -1,22 +1,38 @@
 :root{
 
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+   
     
 
 }
 
+html{
+
+    scroll-behavior: smooth;
+    
+    }
+
+
 
 *{
-
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-
+    font-family: 'Inter', sans-serif;
 }
+
+ol, ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
     display: grid;
-    grid-template-areas: "conteudo1";                    ;
+    grid-template-areas: "conteudo1";                    
     margin: 0;
     padding: 0px;
     overflow-x: hidden; 
@@ -24,6 +40,7 @@ body{
 
 header{
 
+    
     grid-area: conteudo1;
     height: 40px;
     width: 100%;
@@ -32,6 +49,7 @@ header{
 
 
 main{
+    
     grid-area: conteudo1;
     display: flex;
     flex-direction: column;
@@ -41,10 +59,12 @@ main{
 }
 
 footer{
+
+    
     height: 100px;
     width: 100%;
 
-    background: black;
+    background: rgb(255, 0, 0);
 }
 
 
