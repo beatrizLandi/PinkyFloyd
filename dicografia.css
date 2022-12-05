@@ -22,11 +22,19 @@
     border-right: thick solid antiquewhite;   
     left: 2vw;
     top: 5%;
-    color: rgb(255, 251, 247);
+    color: antiquewhite;
   font-family: 'Abril Fatface', cursive;
   position: relative;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   font-size: 500%;
 }
-<style> @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); </style>
+
+.extras{
+
+   position: absolute;
+   right: 1vw;
+    
+
+
+}

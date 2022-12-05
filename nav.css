@@ -1,44 +1,28 @@
 .menu{
-
+    color: antiquewhite;
     margin-top: 1%;
     right: 0.5vw;
     position: absolute;
-    
+    font-family: 'Inter', sans-serif;
     gap: 72px;
     font-size: 1.20rem;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 2.5vw;
-    
+    animation: txtBUG  4s infinite alternate;
 
 
 }
 .lHistoria{
 
 
-    color: #ffffff;
-   
-    padding: 0.3vw 1vw;
-    letter-spacing:3px;
-    cursor: pointer;
-    font-weight: 500;
-    filter: drop-shadow(0 0 15px #ffc188) drop-shadow(0 0 50px#ffcda3) contrast(2) brightness(2);
-    transition: .5s;
-    
+     
 
 }
 
 
 .lBanda{
 
-    color: #ffffff;
-
-    padding: 0.3vw 0.2vw;
-    letter-spacing: 3px;
-    cursor: pointer;
-    font-weight: bold;
-    filter: drop-shadow(0 0 15px #a80000) drop-shadow(0 0 50px#db3e3e) contrast(2) brightness(2);
-    transition: .5s;
    
 
 
@@ -47,15 +31,7 @@
 
 .lDisco{
 
-    color: #ffffff;
-   
-    padding: 0.3vw 1vw;
-    letter-spacing:3px;
-    cursor: pointer;
-    font-weight: bold;
-    filter: drop-shadow(0 0 15px #ffc188) drop-shadow(0 0 50px#ffcda3) contrast(2) brightness(2);
-    transition: .5s;
-    animation: animate2 2s infinite alternate;
+  
 
 
 }
@@ -63,15 +39,23 @@
 
 .lContato{
 
-    color: #ffffff;
-  
-    padding: 0.3vw 1vw;
-    letter-spacing:3px;
-    cursor: pointer;
-    font-weight: bold;
-    filter: drop-shadow(0 0 15px #ffc188) drop-shadow(0 0 50px#ffcda3) contrast(2) brightness(2);
-    transition: .5s;
     
 }
 
 
+
+hr.linha {
+    border: 1px solid red;
+  }
+
+@keyframes txtMovimento  {
+
+
+    0% {
+        transform: translateX(1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+
+}
