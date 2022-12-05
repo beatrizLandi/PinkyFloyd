@@ -49,7 +49,7 @@
 }
 
 .CodigoBaras{
-margin-top: 1%;
+
 position: absolute;
 right: 8vw;
 
@@ -66,4 +66,42 @@ right: 8vw;
     to {transform: rotate(360deg);
     
     }
+}
+
+.Icones{
+
+    
+    position: absolute;
+    
+    left: 2vw;
+ 
+
+}
+
+.logoInsta{
+    margin-top: 18vw;
+   transform: rotate(13deg);
+   width: 30%;
+   height: 30%;
+  
+
+}
+.twitter{
+
+    
+}
+.youtube{
+    margin-left: 3vw;
+    transform: rotate(1deg);
+    width: 50%;
+    height: 50%;
+
+}
+.spotfy{
+
+    transform: rotate(-22deg);
+    width: 40%;
+    height: 40%;
+
+
 }

@@ -37,25 +37,7 @@
     }
 
 
-    @keyframes animate {
-        40%{        
-          opacity: 1;
-  
-          }
-          42%{
-              opacity: 0.8;
-  
-          } 43%{
-              opacity: 0;
-  
-          } 45%{
-              opacity: 0.3;
-  
-          } 46%{
-              opacity: 1;
-  
-          }
- }
+
 
  @keyframes animate2 {
     40%{        
