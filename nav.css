@@ -1,5 +1,5 @@
 .menu{
-    color: antiquewhite;
+    color: var(--claro);
     margin-top: 1%;
     right: 0.5vw;
     position: absolute;
@@ -12,34 +12,6 @@
     animation: txtBUG  4s infinite alternate;
 
 
-}
-.lHistoria{
-
-
-     
-
-}
-
-
-.lBanda{
-
-   
-
-
-}
-
-
-.lDisco{
-
-  
-
-
-}
-
-
-.lContato{
-
-    
 }
 
 

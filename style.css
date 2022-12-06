@@ -1,6 +1,14 @@
 :root{
 
     font-size: 15px;
+   --claro: rgb(255, 251, 247);
+   --medio:rgb(233, 210, 183);
+    --escuro:rgb(19, 18, 18);
+    --preto: rgb (37, 37, 37)
+
+   
+  
+    
    
     
 
@@ -36,6 +44,7 @@ body{
     margin: 0;
     padding: 0px;
     overflow-x: hidden; 
+    
 }
 
 header{
@@ -59,12 +68,21 @@ main{
 }
 
 footer{
-
     
-    height: 100px;
+ 
+    opacity: 0.9;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pret);
+    
+    place-self: end center;
+    grid-area: conteudo1;
+    height: 40px;
     width: 100%;
-
-    background: rgb(19, 19, 19);
+    
 }
 
 
