@@ -3,7 +3,7 @@
     align-items: center
     grid-area: content;
     width: 100%;
-    height: 100vh;
+    height: 115vh;
     
 
 }
@@ -11,7 +11,7 @@
     content: " ";
     position: absolute;
     width: 100%;
-    height: 108%;
+    height: 115%;
     background-image: url(imagens/theWall\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;

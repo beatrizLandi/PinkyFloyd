@@ -59,10 +59,11 @@
     font-family: 'Inter Tight', sans-serif;
     font-size: 3.9rem;
     position: relative;
-    transform: translate(90%);
-
-
+    bottom: 8%;
+    left: 93%;
 }
+
+
 
 .imagensDiscografia{
 

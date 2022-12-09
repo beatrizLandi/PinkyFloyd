@@ -14,88 +14,215 @@
     z-index: -1;
 }
 
-.Logo{
-
- 
-    position: relative;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    font-size: 670%;
-    font-family: 'Inter Tight', sans-serif;
-    color: var(--claro);
-   text-shadow: 0 0 0 transparent,
-                0 0 10px rgb(233, 210, 183),
-                0 0 20px rgb(255, 229, 198),
-                0 0 40px rgb(255, 230, 199),
-                0 0 100px rgb(255, 232, 204),
-                0 0 200px rgb(255, 235, 211),
-                0 0 300px rgb(243, 227, 208),
-                0 0 500px rgb(255, 235, 210),
-                0 0 1000px rgb(255, 234, 208);
-      animation: animate2 4s infinite alternate;
-     
-    }
 
 
-
-
- @keyframes animate2 {
-    40%{        
-      opacity: 1;
-
-      }
-      42%{
-          opacity: 0.5;
-
-      } 43%{
-          opacity: 1;
-
-      } 45%{
-          opacity: 0.2;
-
-      } 46%{
-          opacity: 1;
-
-      }
-
-
-}
-.PINKYFLOYD{
     
-   position: absolute;
+      
+.sign {
+    position: relative;
+    padding-top: 1vw;
+    writing-mode: vertical-rl;
+  
+    left: 17vw;
+    letter-spacing: 2;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    transform: rotate(180deg);
+    font-size: 6.9rem;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+      -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+      0 -0.5rem 2rem var(--medio), 0 0.5rem 3rem var(--escuroLuz);
+    animation: shine 2s forwards, flicker 3s infinite;
+
     border-right: thick solid antiquewhite; 
     border-left: thick solid antiquewhite; 
-    left: 10vw;
-    text-shadow: 0 0 0 transparent,
-    0 0 10px rgb(236, 217, 193),
-    0 0 20px rgb(231, 208, 180),
-    0 0 40px rgb(247, 228, 204),
-    0 0 100px rgb(243, 227, 208),
-    0 0 200px rgb(252, 220, 180),
-    0 0 300px rgb(243, 227, 208),
-    0 0 500px rgb(243, 227, 208),
-    0 0 1000px rgb(243, 227, 208);
     
+  }
+  
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+        -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+        0 -0.5rem 2rem var(--escuroLuz), 0 0.5rem 3rem var(--escuroLuz);
+    }
+    28%,
+    33% {
+      color: var(--medio);
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: var(--escuroLuz);
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #ffffec;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem var(--medio),
+        -0.2rem 0.1rem 1rem var(--medio), 0.2rem 0.1rem 1rem var(--medio),
+        0 -0.5rem 2rem var(--escuroLuz), 0 0.5rem 3rem var(--escuroLuz);
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
 
-}
+
+
 
 .sublogo{
-    top: 86%;
-    left: 9.5vw;
-    position: relative;
-    font-size: 1.6vw;
+  
+    left: 16vw;
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300;
     font-family: 'Inter', sans-serif;
     color: antiquewhite;
-    text-shadow: 0 0 0 transparent,
-    0 0 10px #a80000,
-    0 0 20px #a80000,
-    0 0 40px #a80000,
-    0 0 100px #a80000,
-    0 0 200px #db3e3e,
-    0 0 300px #db3e3e,
-    0 0 500px #db3e3e,
-    0 0 1000px #db3e3e;
-
-   
+    font-weight: 900;
+    
 }
+
+
 
