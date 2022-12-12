@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url(imagens/FundoDiscografia\ \(1\).png);
+    background-image: url(imagens/MacBook\ Pro\ 14_\ -\ 1\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -54,7 +54,7 @@
 
 .marcaPaginaDiscpgrafia{
 
-
+    margin-top: 5%;
     color:var(--claro);
     font-family: 'Inter Tight', sans-serif;
     font-size: 3.9rem;
@@ -70,3 +70,68 @@
     
 }
 
+.DiscografiaPoster{
+
+  
+    margin-top: 6%;
+    right: 40%;
+    position: absolute;
+    display: grid;
+    grid-template-areas:
+                 "a b c"
+                 "d f g "
+                 "h i j";
+     grid-template-rows: 185px 185px 185px;
+     grid-template-columns: 160px 160px 160px;
+      gap: 55px;
+      
+}
+
+.posterEscrituras{
+
+    
+    color: var(--claro);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.the-wall{
+
+    position: relative;
+    right: 10vw;
+}
+
+.Escrituras{
+    margin-top: 7%;
+    right: 28%;
+    display: grid;
+    grid-template-areas:
+                 "a"
+                 "b"
+                 "c";
+
+     grid-template-rows: 195px;
+     grid-template-columns: 170px;
+      gap: 100px;
+    position: absolute;
+}
+
+.giraGira{
+
+   left: 90vw;
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-top: 30%;
+    animation: spin 7s infinite linear;
+}
+
+.giraGira1{
+
+    left: 9vw;
+     position: absolute;
+     width: 9vw;
+     height: 9vw;
+    opacity: 0.9;
+     animation: spin 6.9s infinite linear;
+ }
