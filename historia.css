@@ -76,6 +76,31 @@
     margin-right: 2%;
  
 }
+
+.T2{
+
+    display: grid;
+    grid-template-areas: "EscritosHistoria signature";
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
+}
+
+.EscritosHistoria{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    grid-area:EscritosHistoria ;
+}
+.signature{
+
+    
+    grid-area:signature ;
+
+}
+
 .LogoHistoria{
  
      order: 2;
@@ -97,97 +122,97 @@
 
 .Texto1{
 
-    margin-top: 14%;
     font-size: 1.4rem;
     right: 5.9vw;
     width: 37vw;
-    position: absolute;
-    z-index: 666;
+    margin-top: -10%;
+    margin-left:55vw;
     font-family: 'Inter', sans-serif;
 
 
 }
 
 .Texto2{
+    grid-area:Texto2 ;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     width: 21vw;
     font-family: 'Inter', sans-serif;
-    margin-top: 2vw;
-    margin-left: 3vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
 }
 
 
 
 .ImagemHistoria2{
-
+    margin-top: 2vw;
     height: 7vw;
     width: 15vw;
 
 }
 
 .Texto3{
-
-
-    margin-top: 31%;
-    left: 30%;
+    margin-left: 1vw;
+    margin-top: 4vw;
     font-size: 1.2rem;
     font-family: 'Inter', sans-serif;
-    color: rgb(255, 0, 0);
-    position: absolute;
-    z-index: 666;
+    color: rgb(255, 0, 0); 
 
 }
+
+
 .pretoTexto{
-
-
+    margin-left: 1vw;
+    margin-top: 2vw;
     width: 22.5vw;
-    margin-top: 35%;
-    left: 28%;
     font-size: 1.2rem;
     font-family: 'Inter', sans-serif;
-    color: rgb(0, 255, 64);
-    position: absolute;
-    z-index: 666;
-
-
+    color: rgb(0, 0, 0);
 }
 
 
 
 .TheShowMustGoOn{
 
-    
+   
     height: 16vw;
     width: 26vw;
-    position: absolute;
-   margin-top: 25%;
-   right: 15%;
    filter: grayscale(100%);
 
 
 }
 
 .theShowParagrafo{
+    margin-top: 2%;
     font-size: 1.2rem;
-    margin-top: 43%;
-    right: 10%;
-    position: absolute;
+    margin-left: 18vw;
     font-family: 'Inter', sans-serif;
-    color: rgb(38, 0, 255);
+    color: rgb(0, 0, 0);
 
 }
 
 .theShowParagrafoData{
 
     font-size: 1.3rem;
-    margin-top: 45%;
-    right: 10%;
-    position: absolute;
+    margin-left: 18vw;
     font-family: 'Inter', sans-serif;
-    color: rgb(251, 255, 0);
+    color: rgb(0,0, 0);
 
 }
+
+@media (max-width:1700px) {
+
+    Texto3{
+        margin-left: 1vw;
+        margin-top: 4vw;
+        order: 1;
+        position: absolute;
+        margin-top: -100%;
+        left: 2vw;
+        
+    }
+}
+
 
 @media (max-width:768px) {
 
@@ -204,7 +229,7 @@
      
     }
     .linha{
-        height: 100%;
+        height: 200%;
         border-left: 1px  solid rgb(0, 0, 0);
     }
     
@@ -237,21 +262,83 @@
         height: 46vw;
         width: 90vw;
     }
-    .Texto2{
-        color: rgb(0, 0, 0);
-        font-size: 1.2rem;
+
+    .Texto1{
+
+        font-size: 1.4rem;
+        right: 5.9vw;
         width: 45vw;
+        margin-top: 3%;
+        margin-left:50vw;
+        font-family: 'Inter', sans-serif;
+    
+    
+    }
+    .Texto2{
+        
+        order: ;
+        width: 44vw;
         font-family: 'Inter', sans-serif;
         margin-top: 2vw;
-        margin-left: 3vw;
+        margin-left: 1vw;
+       
+    
     }
 
-
+    
+    .Texto3{
+        margin-left: 1vw;
+        margin-top: 4vw;
+        order: 1;
+        position: absolute;
+        margin-top: -100%;
+        left: 2vw;
+        
+    }
     .ImagemHistoria2{
         margin-top: 2vw;
-        height: 27vw;
+        height: 25vw;
+        width: 43vw;
+       
+    }
+    .pretoTexto{
+    
+        position: absolute;
+        right: 1vw;
+        height: 25vw;
+        width: 43vw;
+    }
+    .EscritosHistoria{
+        display: unset;
         width: 45vw;
+      
+    }
+    
+    .TheShowMustGoOn{
+        height: 40vw;
+        width: 50vw;
+       filter: grayscale(100%);
+       margin-left: -50vw;
+       margin-top: 2%;
+    
+    }
+
+
+    .theShowParagrafo{
+        margin-top: 2%;
+        font-size: 1rem;
+        margin-left: -45vw;
+        font-family: 'Inter', sans-serif;
+        color: rgb(0, 0, 0);
     
     }
     
+    .theShowParagrafoData{
+        margin-left: -40vw;
+        font-size: 1rem;
+        
+        font-family: 'Inter', sans-serif;
+        color: rgb(0,0, 0);
+    
+    }
 }
