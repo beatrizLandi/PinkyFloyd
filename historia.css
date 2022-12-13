@@ -2,7 +2,7 @@
 
     width: 100%;
     height: 100vh;
-    display: flex;
+   
   
    
 
@@ -16,7 +16,7 @@
     background-image: url(imagens/theWall\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    z-index: -10;
   
 }
 
@@ -24,76 +24,74 @@
     border-left: 3px  solid rgb(0, 0, 0);
     height: 100%;
     margin: 0 auto;
-    padding-right: 1%;
-     width: 1px;
-     z-index: -1;
-     position: relative;
-     right: 6vw;
+    z-index: -5;
+    position: absolute;
+    left: 1vw;
+     
 }
 
 .linha2{
-    border-left: 3px solid rgb(0, 0, 0);
+    border-left: 3px  solid rgb(0, 0, 0);
     height: 100%;
     margin: 0 auto;
-    position: relative;
-    left: 4.5vw;
-     width: 1px;
-     z-index: -5;
+    z-index: -5;
+    position: absolute;
+    left: 25vw;
+   
 }
 .linha3{
-    border-left: 3px solid rgb(0, 0, 0);
+    border-left: 3px  solid rgb(0, 0, 0);
     height: 100%;
     margin: 0 auto;
-    position: relative;
-    left: 16vw;
-     width: 1px;
-     z-index: -5;
+    z-index: -5;
+    position: absolute;
+    right: 48vw;
+    
 }
 .linha4{
-    border-left: 3px solid rgb(0, 0, 0);
+    border-left: 3px  solid rgb(0, 0, 0);
     height: 100%;
     margin: 0 auto;
-    position: relative;
-    left: 47vw;
-     width: 1px;
-     z-index: -5;
+    z-index: -5;
+    position: absolute;
+    right: 1vw;
 }
 
 .marcaPagina{
-
     color: black;
     font-family: 'Inter Tight', sans-serif;
     position: relative;
     z-index: 666;
-    position: relative;
+    position: absolute;
     font-size: 4rem;
-    left: 33vw;
-    
-    
-
+    right: 1vw;
 }
 
-.LogoHistoria{
 
-    top: 4%;
-    position: relative;
-    right: 8vw;
-    height: 11vw;
-    width: 37vw;
+.T1{
+
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
+}
+.LogoHistoria{
+ 
+     order: 2;
+    margin-left: 10%;
+    right: 5vw;
+    height: 12vw;
+    width: 38vw;
     transform: rotate(-5deg);
 
-    
 }
 
 .Integrantes{
-
-    margin-top: 0.5%;
-    left: 3%;
-    position: absolute;
-    z-index: 666;
+    order: 1;
     height: 23vw;
-    width: 43vw;
-
+    width: 45vw;
+  
 
 }
 
@@ -111,23 +109,18 @@
 }
 
 .Texto2{
-
-    position: absolute;
-    margin-top: 25vw;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
-    left: 2vw;
     width: 21vw;
-    z-index: 666;
     font-family: 'Inter', sans-serif;
+    margin-top: 2vw;
+    margin-left: 3vw;
 }
 
 
 
 .ImagemHistoria2{
 
-    margin-top: 2%;
-    position: relative;
-    left: 7%;
     height: 7vw;
     width: 15vw;
 
@@ -153,7 +146,7 @@
     left: 28%;
     font-size: 1.2rem;
     font-family: 'Inter', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 255, 64);
     position: absolute;
     z-index: 666;
 
@@ -181,7 +174,7 @@
     right: 10%;
     position: absolute;
     font-family: 'Inter', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(38, 0, 255);
 
 }
 
@@ -192,8 +185,73 @@
     right: 10%;
     position: absolute;
     font-family: 'Inter', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(251, 255, 0);
+
+}
+
+@media (max-width:768px) {
 
 
+    .historia{
+        width: 100%;
+        height: 200vh;
+       
+    
+    }
 
+    .historia::before{
+        height: 200%;
+     
+    }
+    .linha{
+        height: 100%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    
+    .linha2{
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .linha3{
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .linha4{
+
+        height: 200%;
+        border-left: 1px  solid rgb(0, 0, 0);
+    }
+    .marcaPagina{
+      
+        font-size: 3rem;
+    }
+    .LogoHistoria{
+        margin-left: -45%;
+       height: 20vw;
+       width: 65vw
+   
+   }
+   
+    .Integrantes{
+       margin-top: 15%;
+        height: 46vw;
+        width: 90vw;
+    }
+    .Texto2{
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        width: 45vw;
+        font-family: 'Inter', sans-serif;
+        margin-top: 2vw;
+        margin-left: 3vw;
+    }
+
+
+    .ImagemHistoria2{
+        margin-top: 2vw;
+        height: 27vw;
+        width: 45vw;
+    
+    }
+    
 }
