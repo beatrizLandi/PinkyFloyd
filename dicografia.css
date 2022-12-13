@@ -17,6 +17,7 @@
     z-index: -1;
 
 }
+  /* */
 .discografiaLogo{
     position: absolute;
     border-right: thick solid var(--claro);   
@@ -46,8 +47,8 @@
     color: var(--claro);
     font-size: 2rem;
     font-family: 'Inter', sans-serif;
-
-    transform: translate( 42%,50%);
+    text-align: center;
+    
 
 
 }
@@ -72,19 +73,19 @@
 
 .DiscografiaPoster{
 
-  
+
     margin-top: 6%;
-    right: 40%;
-    position: absolute;
     display: grid;
     grid-template-areas:
                  "a b c"
                  "d f g "
                  "h i j";
-     grid-template-rows: 185px 185px 185px;
-     grid-template-columns: 160px 160px 160px;
+     grid-template-rows: 10vw 10vw 10vw;
+     grid-template-columns: 9vw 9vw 9vw;
       gap: 55px;
-      
+
+     margin-left: 20vw;
+  
 }
 
 .posterEscrituras{
@@ -135,3 +136,35 @@
     opacity: 0.9;
      animation: spin 6.9s infinite linear;
  }
+
+ .LogoPoster{
+
+    display: flex;
+
+ }
+
+ @media (max-width:768px) {
+    .discografiaLogo{
+       margin-top: 5%;
+      font-size: 400%;
+    }
+    .Escrituras{
+       display: none;
+    }
+
+    .DiscografiaPoster{
+
+
+         grid-template-rows: 23vw 23vw 23vw;
+         grid-template-columns: 17vw 17vw 17vw;
+          gap: 55px;
+    
+         margin-left: 9vw;
+      
+    }
+    
+ }
+
+
+
+

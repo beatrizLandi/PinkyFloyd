@@ -92,6 +92,7 @@ right: 8vw;
     
 }
 .youtube{
+    
     margin-left: 3vw;
     transform: rotate(1deg);
     width: 50%;
@@ -116,4 +117,19 @@ right: 8vw;
     
     right: 2vw;
     margin-top: 40vw;
+}
+@media (max-width:768px) {
+ 
+
+    .disk{
+        position: relative;
+        z-index: -4;
+        left: 20%;
+        bottom: 20%;
+        animation: spin 6s infinite linear;
+        z-index: -4;
+        width: 90vw;
+    
+    }
+
 }
