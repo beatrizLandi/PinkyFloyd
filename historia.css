@@ -2,9 +2,11 @@
 
     width: 100%;
     height: 100vh;
-   
-  
-   
+    padding-top:0.1% ;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
+   padding-left: 0.1%;
+   font-family: 'Inter Tight', sans-serif;
 
 }
 
@@ -59,8 +61,8 @@
 
 .marcaPagina{
     color: black;
-    font-family: 'Inter Tight', sans-serif;
-    position: relative;
+
+  
     z-index: 666;
     position: absolute;
     font-size: 4rem;
@@ -96,18 +98,18 @@
 }
 .signature{
 
-    
+    display: grid;
+    align-items: center;
     grid-area:signature ;
 
 }
 
 .LogoHistoria{
  
-     order: 2;
-    margin-left: 10%;
-    right: 5vw;
-    height: 12vw;
-    width: 38vw;
+    order: 2;
+    margin-left: 6vw;
+    height: 13vw;
+    width: 39vw;
     transform: rotate(-5deg);
 
 }
@@ -121,52 +123,47 @@
 }
 
 .Texto1{
-
     font-size: 1.4rem;
     right: 5.9vw;
     width: 37vw;
-    margin-top: -10%;
+    margin-top: -11%;
     margin-left:55vw;
-    font-family: 'Inter', sans-serif;
-
 
 }
 
 .Texto2{
-    grid-area:Texto2 ;
+   
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     width: 21vw;
-    font-family: 'Inter', sans-serif;
-    margin-top: 1vw;
     margin-left: 1vw;
 }
 
 
 
 .ImagemHistoria2{
-    margin-top: 2vw;
-    height: 7vw;
-    width: 15vw;
+
+    height: 5vw;
+    width: 12vw;
 
 }
 
 .Texto3{
     margin-left: 1vw;
-    margin-top: 4vw;
+
     font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
     color: rgb(255, 0, 0); 
+    font-weight: 400;
 
 }
 
 
 .pretoTexto{
     margin-left: 1vw;
-    margin-top: 2vw;
+
     width: 22.5vw;
     font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
+  
     color: rgb(0, 0, 0);
 }
 
@@ -174,7 +171,6 @@
 
 .TheShowMustGoOn{
 
-   
     height: 16vw;
     width: 26vw;
    filter: grayscale(100%);
@@ -183,35 +179,19 @@
 }
 
 .theShowParagrafo{
-    margin-top: 2%;
-    font-size: 1.2rem;
-    margin-left: 18vw;
-    font-family: 'Inter', sans-serif;
-    color: rgb(0, 0, 0);
 
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
 
 .theShowParagrafoData{
 
-    font-size: 1.3rem;
-    margin-left: 18vw;
-    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;/
     color: rgb(0,0, 0);
 
 }
 
-@media (max-width:1700px) {
-
-    Texto3{
-        margin-left: 1vw;
-        margin-top: 4vw;
-        order: 1;
-        position: absolute;
-        margin-top: -100%;
-        left: 2vw;
-        
-    }
-}
 
 
 @media (max-width:768px) {
@@ -288,9 +268,8 @@
     
     .Texto3{
         margin-left: 1vw;
-        margin-top: 4vw;
         order: 1;
-        position: absolute;
+  
         margin-top: -100%;
         left: 2vw;
         
@@ -303,7 +282,7 @@
     }
     .pretoTexto{
     
-        position: absolute;
+    
         right: 1vw;
         height: 25vw;
         width: 43vw;

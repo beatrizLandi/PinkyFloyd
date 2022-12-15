@@ -27,6 +27,7 @@
     bottom: 20%;
     animation: spin 6s infinite linear;
     z-index: -4;
+    width: 55vw;
 
 
 }
